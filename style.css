@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bde28d;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #d5d595;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(202, 190, 190, 0.1);
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #130f0f;
+}
+
+.reset-btn {
+    display: none; 
+    padding: 10px;
+    color: #fff;
+    background-color: #879c10;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: #218838;
+}
